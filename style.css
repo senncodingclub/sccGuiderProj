@@ -1,0 +1,36 @@
+/**	k
+ * These are the styles for the HTML form
+ *
+ * style.css 
+ * (c) January 2016 Senn Coding Club
+ **/
+ 
+/** the color scheme is cool colors
+ * the headers are dark blue
+ * the content pane is light blue
+ * dark blue = #0288D1
+ * light blue = #03A9F4
+ **/
+
+	/* all fonts on the page should be sans-serif */
+body {
+	font-family : "Arial", "Helvetica", sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+  background-color:#607D8B;
+}
+
+ /* dark blue background
+    light blue text */
+h1 {
+  height:50px;
+  background-color : #4b9900;
+	color : #FFFFFF;
+  text-align: center;
+}
+form{
+  text-align: right;
+  font-weight:bold;
+  border:solid red 1px;
+ 
+}
