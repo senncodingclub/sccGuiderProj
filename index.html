@@ -3,24 +3,31 @@
     <head>
         <title>Solar Ovens</title>
       	<link rel="stylesheet" type="text/css" href="style.css">
-    </head>.	
+      	<script>
+        	function updateOutput(id, value) {
+            document.getElementById(id).value = value;
+          }
+      	</script>
+    </head>
     <body>
         <h1>Feel The Burn</h1>
-        <p>A physics project about solar ovens and stuff. To find &Delta;Temperature</p>
+        <p id="description">A physics project about solar ovens.
+        Change the inputs to the right to find &Delta;Temperature.</p>
         <form>
-            <p>Wall Thickness <input type="number"></p>
-            <p>Oven Length <input type="number"></p> 
-            <p>Oven Width <input type="number"></p> 
-            <p>Windown Length <input type="number"></p> 
-            <p>Window Width <input type="number"></p> 
-            <p>Thermal Conductivity <input type="number"></p> 
-            <p>Efficiency Value <input type="number"></p> 
-            <p>Solar Flux <input type="number"></p> 
+          <label for="wallThickness">Wall Thickness</label>
+					<input type="range" min="0.05" max="1" value="0.3" id="wallThickness" step="0.01" oninput="updateOutput('wallThicknessOutput', this.value);">
+					<output for="wallThickness" id="wallThicknessOutput">0.3</output>
+
+          <label for="ovenLength">Oven Length</label>
+
+          <p>Oven Length <input type="number"></p>
+
+            <p>Oven Width <input type="number"></p>
+            <p>Window Length <input type="number"></p>
+            <p>Window Width <input type="number"></p>
+            <p>Thermal Conductivity <input type="number"></p>
+            <p>Efficiency Value <input type="number"></p>
+            <p>Solar Flux <input type="number"></p>
         </form>
     </body>
 </html>
-
-
-
-
-<!-- https://codeshare.io/EEKlm -->
