@@ -14,20 +14,47 @@
         <p id="description">A physics project about solar ovens.
         Change the inputs to the right to find &Delta;Temperature.</p>
         <form>
-          <label for="wallThickness">Wall Thickness</label>
+
+          <p><label for="wallThickness">Wall Thickness</label>
 					<input type="range" min="0.05" max="1" value="0.3" id="wallThickness" step="0.01" oninput="updateOutput('wallThicknessOutput', this.value);">
-					<output for="wallThickness" id="wallThicknessOutput">0.3</output>
+          <output for="wallThickness" id="wallThicknessOutput">0.3</output></p>
 
-          <label for="ovenLength">Oven Length</label>
+          <p><label for="ovenLength">Oven Length</label>
+          <input type="range" min="0.05" max="1" value="0.3" id="ovenLength" step="0.01" oninput="updateOutput('ovenLengthOutput', this.value);">
+            <output for="ovenLength" id="ovenLengthOutput">0.3</output></p>
 
-          <p>Oven Length <input type="number"></p>
+          <p><label for="ovenWidth">Oven Width</label>
+          <input type="range" min="0.05" max="1" value="0.3" id="ovenWidth" step="0.01" oninput="updateOutput('ovenWidthOutput', this.value);">
+          <output for="ovenWidth" id="ovenWidthOutput">0.3</output></p>
 
-            <p>Oven Width <input type="number"></p>
-            <p>Window Length <input type="number"></p>
-            <p>Window Width <input type="number"></p>
-            <p>Thermal Conductivity <input type="number"></p>
-            <p>Efficiency Value <input type="number"></p>
-            <p>Solar Flux <input type="number"></p>
+          <p><label for="ovenHeight">Oven Height</label>
+					<input type="range" min="0.05" max="1" value="0.3" id="ovenHeight" step="0.01" oninput="updateOutput('ovenHeightOutput', this.value);">
+          <output for="ovenHeight" id="ovenHeightOutput">0.3</output></p>
+
+          <p><label for="windowLength">Window Length</label>
+          <input type="range" min="0.1" max="1" value="0.25" id="windowLength" step="0.01" oninput="updateOutput('windowLengthOutput', this.value);">
+          <output for="windowLength" id="windowLengthOutput">0.25</output></p>
+
+
+          <p><label for="windowWidth">Window Width</label>
+					<input type="range" min="0.1" max="1" value="0.25" id="windowWidth" step="0.01" oninput="updateOutput('windowWidthOutput', this.value);">
+          <output for="windowWidth" id="windowWidthOutput">0.25</output></p>
+
+
+          <p>Thermal Conductivity </p>
+          <select name="thermalConductivity">
+          <option value="">Aluminum</option>
+          <option value="">Cardboard</option>
+          <option value="">Glass</option>
+          <option value="">Mirror</option>
+          <option value="">Polypropylene</option>
+          <option value="">Wood</option>
+          <option value="">Matches</option>
+          </select>
+
+          <p>Efficiency Value <input type="number"></p>
+          <p>Solar Flux <input type="number"></p>
+
         </form>
     </body>
 </html>
