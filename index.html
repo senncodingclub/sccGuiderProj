@@ -12,8 +12,10 @@
     <body>
         <h1>Feel The Burn</h1>
         <p id="description">A physics project about solar ovens.
-        Change the inputs to the right to find &Delta;Temperature.</p>
+        Change the inputs to the right to find &Delta;Temperature.</p> 
+         
         <form>
+           
 
           <p><label for="wallThickness">Wall Thickness</label>
 					<input type="range" min="0.05" max="1" value="0.3" id="wallThickness" step="0.01" oninput="updateOutput('wallThicknessOutput', this.value);">
@@ -54,6 +56,7 @@
 
           <p>Efficiency Value <input type="number"></p>
           <p>Solar Flux <input type="number"></p>
+            <img src="solaroven1.png" width=150px>
 
         </form>
     </body>
