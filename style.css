@@ -30,17 +30,27 @@ h1 {
 form{
   text-align: right;
   font-weight:bold;
-   Background-color: #161925;
-   height: 500px
+   Background-color: #FFA500;
+   height: 500px;
+    
 
 }
 output{
     color:white
 }
 p{
-    color: #ffffff
+    color: #ffffff;
+        margin-right: 1%
 }
 #description {
 	font-weight:bold;
   color: #ffffff;
+}
+
+select{
+    margin-right: 1%
+}
+img{
+    margin-right: 700px;
+    margin-top:-100%;
 }
