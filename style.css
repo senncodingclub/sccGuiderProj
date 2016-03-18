@@ -1,56 +1,57 @@
-/**
- * These are the styles for the HTML form
- *
- * style.css
- * (c) January 2016 Senn Coding Club
- **/
+    /**
+     * These are the styles for the HTML form
+     *
+     * style.css
+     * (c) January 2016 Senn Coding Club
+     **/
 
-/** the color scheme is warm colors
- * the headers are undetermined
- * the content pane is undetermined
- **/
+    /** the color scheme is warm colors
+     * the headers are undetermined
+     * the content pane is undetermined
+     **/
 
-	/* all fonts on the page should be sans-serif */
-body {
-	font-family : "Arial", "Helvetica", sans-serif;
-	margin-left: 20%;
-	margin-right: 20%;
-  background-color:	ffffff;
-}
+        /* all fonts on the page should be sans-serif */
+    body {
+        font-family : "Arial", "Helvetica", sans-serif;
+        margin-left: 20%;
+        margin-right: 20%;
+      background-color:	#F0F3BD;
+    }
 
 
- /* */
-h1 {
-  height:50px;
-  background-color :#F1D302;
-	color : #000000;
-  text-align: center;
-}
+     /* */
+   h1 {
+      height:50px;
+      background-color:#E0C879;
+        color : #000000;
+      text-align: center;
+    }
 
-form{
-  text-align: right;
-  font-weight:bold;
-   Background-color: #FFA500;
-   height: 500px;
-    
+    form{
+      text-align: right;
+      font-weight:bold;
+       Background-color:#E87461;
+       height: 500px;
 
-}
-output{
-    color:white
-}
-p{
-    color: #ffffff;
+
+    }
+    output{
+        color:white
+    }
+    p{
+        color: #ffffff;
         margin-right: 1%
-}
-#description {
-	font-weight:bold;
-  color: #ffffff;
-}
+    }
+    #description {
+    	font-weight: bold;
+      color: black;
+      text-align: center;
+    }
 
-select{
-    margin-right: 1%
-}
-img{
-    margin-right: 700px;
-    margin-top:-100%;
-}
+    select{
+        margin-right: 1%
+    }
+    img{
+        margin-right: 700px;
+        margin-top:-100%;
+    }
